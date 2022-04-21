@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: darkgray;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    width: 1000px;
+    margin: auto;    
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+div {
+
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+div#imagem01 {
+
+    height: 400px;
+    margin-bottom: 50px;
+    background-image: url('imagens/imagem01.jpg');
+    background-position: center center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.283);
+    background-attachment: fixed;
+    background-size: cover;
+    
+       
+}
+
+div#imagem02 {
+
+    height: 400px;
+    margin-bottom: 50px;
+    background-image: url('imagens/imagem02.jpg');
+    background-position: center center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.283);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+div#imagem03 {
+
+    height: 400px;
+    margin-bottom: 50px;
+    background-image: url('imagens/imagem03.jpg');
+    background-position: center center;  
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.283); 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+section > p {
+
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.804), rgba(3, 202, 3, 0.689));
+    border-radius: 30px;
+    line-height: 2em;
+    margin-bottom: 30px;
+    padding: 0px;
+        
+}
+
+section {
+
+    padding-bottom: 40px;
+
+}
+section.normal {
+
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.804), rgba(3, 202, 3, 0.689));
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+footer {
+
+    padding: 20px;
+    color: black;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: black;
+}
+
+footer > p > a:hover {
+
+    text-decoration: underline;
+}
+
+
+
+
